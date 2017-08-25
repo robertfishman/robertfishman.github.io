@@ -127,7 +127,19 @@
 						usePopupNav: true,
 						windowMargin: (skel.breakpoint('small').active ? 0 : 50)
 					});
-
+					
+					$('#trustme').poptrox({
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.work-item a.image',
+						usePopupCaption: false,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (skel.breakpoint('small').active ? 0 : 50)
+					});
 				});
 
 	});
